@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+        <title>Encriptador challenge</title>
+        <img class="logo-alura" src="imagenes/logo alura.png">
+        <h1 class="titulo-principal">¿Te atreves a participar de este juego de espionaje?</h1>    
+    </head>
+        <body>
+            <main class="area-encriptador">
+                <img class="espia" src="imagenes/spy.png">
+                    <div class="encriptador">
+                    <input type="text" id="mensaje" placeholder="Escriba el mensaje que quiere ocultar">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+                <div class="resultados">
+                    <input type="text" id="resultado" placeholder="Este es el resultado">
+                    <button id="copiar" onclick="">Copiar</button>
+                </div>
+
+                <script src="logica.js"></script>
+                <link rel="stylesheet" href="style.css">
+            </main>
+            <footer class="pie-pagina">
+                <h3>Creado por Tdreick</h3>
+                <h4>2022</h4>
+            </footer>
+        </body>
+</html>
